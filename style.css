@@ -1,0 +1,54 @@
+
+#section1{
+    position: inherit;
+    border: 5px outset blue;
+    background-color: lightblue;
+    text-align: center;
+}
+#section2{
+    text-decoration: darkmagenta;
+    text-align: center;
+    background-color: darkcyan;
+ 
+}
+.body-style{
+    
+    background-color: hotpink;
+}
+p{
+    color: yellow;
+    font-size: 20px;
+}
+#nest-div{
+    float: left;
+    position: static;
+    height: 300px;
+    width: 600px;
+    background-color: tomato;
+}
+#nest-div2{
+    position: static;
+    left: 601px;
+    height: 300px;
+    width: 600px;
+    background-color: maroon;
+}
+#nest-div3{
+    left: 1202;
+    height: 300px;
+    width: 30px;
+    background-color: black;
+}
+.tbl{
+    border-collapse: collapse;
+    float: left;
+    text-align: center;
+    background-color: lawngreen;
+    border: 2;
+}
+table,tr,td{
+    border: 2px solid red;
+}
+table,tr,th{
+    border: 2px solid red;
+}
