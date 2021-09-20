@@ -10,7 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webpage</title>
-    <link rel="stylesheet" href="bd.css">
+    <style>
+        .carousel-item{
+            padding: 5% 15%;
+            text-align: center;
+        }
+    </style>
 </head>
 
 
@@ -106,7 +111,8 @@
                             <!-- practicing alert -->
                             <div class="alert alert-primary alert-dismissible fade show" role="alert">
                                 Have you visit my<strong>Github?</strong> <a
-                                    class="alert-link btn btn-outline-secondary" href="https://github.com/pijushbarai" target="blank">
+                                    class="alert-link btn btn-outline-secondary" href="https://github.com/pijushbarai"
+                                    target="blank">
                                     check please</a>
                                 <button type="button" class="btn-close" data-bs-dismiss="alert"
                                     aria-label="Close"></button>
@@ -239,6 +245,56 @@
 
             <!-- customer review end here -->
 
+            <!-- educational table with bootstrap class start here -->
+            <div class="educational-table">
+                <div class="title mb-3 text-center py-3">
+                    <h2 class="font-weight-bolder">Education</h2>
+                </div>
+                <table class="table table-bordered table-hover table-warning table-striped text-center ">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>School</th>
+                            <th>Passing year</th>
+                            <th>gpa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PIJUSH</td>
+                            <td>KHS</td>
+                            <td>2017</td>
+                            <td>5.00</td>
+
+                        </tr>
+                        <tr>
+                            <td>Pranta</td>
+                            <td>KHS</td>
+                            <td>2017</td>
+                            <td>5.00</td>
+
+                        </tr>
+                        <tr>
+                            <td>Manish</td>
+                            <td>KHS</td>
+                            <td>2017</td>
+                            <td>5.00</td>
+
+                        </tr>
+                        <tr>
+                            <td>dipanker</td>
+                            <td>KHS</td>
+                            <td>2017</td>
+                            <td>5.00</td>
+
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <!-- educational table with bootstrap class end here -->
+
             <!-- toggle pill section start here -->
             <div class="pill-learning">
                 <ul class="nav nav-pills mt-3 bg-warning justify-content-center py-2" id="pills-tab" role="tablist">
@@ -307,7 +363,98 @@
             </div>
 
 
-            <!-- student-list section start here -->
+            <!-- student-list section ends here -->
+
+            <!-- form creation start here -->
+            <div class="contact-me bg-primary text-white p-3">
+                <div class="title mb-3 text-center py-3">
+                    <h2 class="font-weight-bolder"> form pracice</h2>
+                </div>
+                <div class="forming ">
+                    <form action="" class="was-validated">
+                        <div class="form-group">
+                            <label for="fullname">Full name : </label>
+                            <input class="form-control " type="text" name="fullname" required>
+                            <div class="invalid-feedback text-white">
+                                Please enter your full name!
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email : </label>
+                            <input class="form-control " type="text" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject : </label>
+                            <input class="form-control " type="text" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age : </label>
+                            <input class="form-control " type="text" name="age">
+                        </div>
+                        <div class="form-group">
+                            <label for="message"> Message :</label>
+                            <textarea name="message" id="msg" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="submit" value="submit" class="btn btn-outline-warning">
+                            <input type="reset" value="reset" class="btn btn-outline-warning">
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+            <!-- form creation sends here -->
+
+
+            <!-- coursol practice start here -->
+            <div class="slide-show text-white mt-3 p-2" style="background-color: #0d0442;">
+                <div class="title mb-3 text-center py-3">
+                    <h2 class="font-weight-bolder">Slides</h2>
+                    <hr>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                            data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <p> ITEM 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+                                        cum iusto pariatur harum atque et!</p>
+                                    <img src="pijush.jpg" alt="pijush" style="width: 200px;" class="rounded-circle">
+                                    <h3>Pijush Barai</h3>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>ITEM 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi fugit et
+                                        aspernatur quod dignissimos illum?</p>
+                                        <img src="pijush.jpg" alt="pijush" style="width: 200px;" class="rounded-circle">
+                                        <h3>Pijush Barai</h3>   
+                                </div>
+                                 <div class="carousel-item">
+                                     <p>ITEM 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                                        doloremque illum maiores excepturi sapiente.</p>
+                                        <img src="pijush.jpg" alt="pijush" style="width: 200px;" class="rounded-circle">
+                                        <h3>Pijush Barai</h3>
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- coursol practice ends here -->
 
         </main>
         <footer>

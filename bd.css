@@ -3,3 +3,7 @@
     font-size: larger;
     color: black;
 }
+.carousel-item{
+    padding: 5% 15%;
+    font-style: italic;
+}
